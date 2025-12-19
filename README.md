@@ -48,10 +48,11 @@ You can visualize our inference results and evaluation metrics using the followi
 
 *  inference
 ```shell
-python test.py 
+python inandpre.py
+python in.py
+python pre.py
 
 ```
-
 
 
 
