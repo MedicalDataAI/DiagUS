@@ -30,11 +30,9 @@ In the largest multicenter radiomics cohort for uterine sarcoma diagnosis to dat
 * See 'requirements.txt' for Python libraries required
 
 ```shell
-conda create -n DiagCHD python=3.8
-conda activate DiagCHD
-conda install cudatoolkit=11.8.1 cudnn=8.1.0.77
-pip install tensorflow-gpu==2.8.0
-# cd /xx/xx/DiagCHD
+conda create -n DiagUS python=3.7
+conda activate DiagUS
+# cd /xx/xx/DiagUS
 pip install -r requirements.txt
 ```
 
@@ -43,7 +41,7 @@ pip install -r requirements.txt
 Download the zip of [model checkpoints](https://pan.baidu.com/s/1NBT27balyJLss3iykFEuLg?pwd=xdjw) (key:```xdjw```), decompress and put all pkl files into ../DiagCHD/weights/checkpoints.
 
 ## <img src='/sundry/听诊器.gif' width="30px"> Our Dataset 
-We have provided sample data in the dataset directory.
+We have provided sample data in the data directory.
 
 ## <img src='/sundry/1f3ac.gif' width="30px"> Inference Demo
 You can visualize our inference results and evaluation metrics using the following commands.:
