@@ -38,7 +38,7 @@ pip install -r requirements.txt
 
 
 ## <img src='/sundry/1f5c2-fe0f.gif' width="30px"> Model Checkpoints
-Download the zip of [model checkpoints](https://pan.baidu.com/s/1NBT27balyJLss3iykFEuLg?pwd=xdjw) (key:```xdjw```), decompress and put all pkl files into ../DiagCHD/weights/checkpoints.
+model weight in the /DiagUS/model.
 
 ## <img src='/sundry/听诊器.gif' width="30px"> Our Dataset 
 We have provided sample data in the data directory.
