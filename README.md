@@ -26,9 +26,7 @@ In the largest multicenter radiomics cohort for uterine sarcoma diagnosis to dat
 
 ## <img src='/sundry/1f9f3.gif' width="30px"> Environment Setups
 
-* python 3.8
-* cudatoolkit 11.8.0
-* cudnn 8.1.0.77
+* python 3.7
 * See 'requirements.txt' for Python libraries required
 
 ```shell
